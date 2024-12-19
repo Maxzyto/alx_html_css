@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: purple;
+  padding:  10px;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction:row;
+  flex: auto;
+  background: silver;
+  /* width: 100%; */
+  border: 5px solid black;
+}
+
+
+
+article {
+  flex: 2;
+  overflow-y: auto
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto
+  
+}
+
+footer {
+  background: black;
+  color: white;
+}
