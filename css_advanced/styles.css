@@ -510,7 +510,7 @@ h1 {
  footer section {
    display: flex;
    flex-direction: column;
-   gap: 150px;
+   gap: 100px;
    padding: 60px;
    width: 100vw;
    position: relative;
@@ -537,13 +537,14 @@ h1 {
    display: flex;
    gap: 20px;
    color: #071629; 
+   z-index: 1;
  }
  
  footer p {
    font-family: Source Sans Pro;
    font-size: 12px;
    font-weight: 400;
-   line-height: 15.08px;
+   /* line-height: 15.08px; */
    text-align: center;
    color: rgba(255, 255, 255, 1);
 
