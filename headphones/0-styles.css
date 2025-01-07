@@ -1,0 +1,101 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Custom CSS */
+body {
+  font-family: "source-sans-pro", sans-serif;
+  max-height: 1000px;
+}
+
+header {
+  background: url("./images/headphones_hero_1.jpg") no-repeat center
+    center/cover;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  position: absolute;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "source-sans-pro", sans-serif;
+}
+
+header nav img {
+  margin-left: 2rem;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  list-style: none;
+}
+
+header nav ul li a {
+  font-family: "source-sans-pro", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15.08px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffff;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+/* link visited and hover effect */
+header nav ul li a:hover {
+  color: #e4424f;
+}
+
+/* Hero section */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.hero-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.button {
+  background-color: #e4424f;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Button hover */
+button:hover {
+  background-color: rgb(89, 63, 219);
+}
+
+/* Button visited */
+button:visited {
+  background-color: rgb(89, 63, 219);
+}
+
+.hero-section p {
+  font-size: 1rem;
+  /* font-weight: 400; */
+  padding: 0 8rem;
+  margin: 0 auto;
+}
